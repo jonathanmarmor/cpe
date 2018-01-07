@@ -1,0 +1,3 @@
+# brew install sox --with-lame --with-flac --with-libvorbis
+git+git://github.com/jonathanmarmor/phase.git@master
+Pillow
