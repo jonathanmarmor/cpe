@@ -1,0 +1,14 @@
+{
+    "end_align": true,
+    "end_pad_duration": 0.0,
+    "fade": "in-out",
+    "gap": 0.06,
+    "initial_gap": 0,
+    "input_file": "/Users/jmarmor/repos/jonathanmarmor/phase/py/test_input_files/CPEFlute3a.wav",
+    "n_tracks": 18,
+    "output_folder": "output/",
+    "quietest": -40.0,
+    "repeat_count": 22,
+    "start_pad_duration": 0.0,
+    "temp_folder": "tmp/"
+}

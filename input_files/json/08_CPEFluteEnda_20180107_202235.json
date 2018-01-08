@@ -1,0 +1,19 @@
+{
+    "end_align": true,
+    "end_pad_duration": 0.376,
+    "fade": "in-out",
+    "gain": -8.0,
+    "gap": 0.018,
+    "initial_gap": 0,
+    "input_file": "input_files/CPEFluteEnda.wav",
+    "n_tracks": 12,
+    "output_folder": "output/",
+    "quietest": -16.0,
+    "repeat_count": 21,
+    "solo_first": false,
+    "solo_last": false,
+    "start_pad_duration": 0.0,
+    "temp_folder": "tmp/",
+    "trim_end": false,
+    "trim_start": false
+}

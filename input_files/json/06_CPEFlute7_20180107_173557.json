@@ -1,0 +1,19 @@
+{
+    "end_align": true,
+    "end_pad_duration": 0.8,
+    "fade": "in-out",
+    "gain": -8.0,
+    "gap": 0.282312432,
+    "initial_gap": 0,
+    "input_file": "input_files/CPEFlute7.wav",
+    "n_tracks": 17,
+    "output_folder": "output/",
+    "quietest": -30.0,
+    "repeat_count": 14,
+    "solo_first": false,
+    "solo_last": false,
+    "start_pad_duration": 1.112,
+    "temp_folder": "tmp/",
+    "trim_end": true,
+    "trim_start": true
+}
