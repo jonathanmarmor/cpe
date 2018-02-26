@@ -22,23 +22,23 @@ def main():
     # }
 
 
-    track1 = Phase(
-        'input_files/CPEFlute1.wav',
-        n_tracks=24,
-        gap=0.25,
-        # initial_gap=0.0,
-        repeat_count=34,  # Previously 40
-        end_align=False,
-        start_pad_duration=0.0,
-        end_pad_duration=0.0,
-        fade='in-out',
-        quietest=-39.0,  # These values (-39, -4.9) for quietest and gain are good for n_tracks=24, gap=0.25
-        gain=-4.9,
-        trim_start=False,
-        trim_end=False,
-        # solo_repetition_number=0,
-        # solo_track_number=0,
-        )
+    # track1 = Phase(
+    #     'input_files/CPEFlute1.wav',
+    #     n_tracks=24,
+    #     gap=0.25,
+    #     # initial_gap=0.0,
+    #     repeat_count=36,
+    #     end_align=False,
+    #     start_pad_duration=0.0,
+    #     end_pad_duration=0.0,
+    #     fade='in-out',
+    #     quietest=-39.0,  # These values (-39, -4.9) for quietest and gain are good for n_tracks=24, gap=0.25
+    #     gain=-4.9,
+    #     trim_start=False,
+    #     trim_end=False,
+    #     # solo_repetition_number=0,
+    #     # solo_track_number=0,
+    #     )
 
 
 
@@ -58,20 +58,20 @@ def main():
 #     "temp_folder": "tmp/"
 # }
 
-    # track2 = Phase(
-    #     'input_files/CPEFlute2.wav',
-    #     n_tracks=32,
-    #     gap=0.16,
-    #     # initial_gap=0.0,
-    #     repeat_count=40,
-    #     end_align=False,
-    #     start_pad_duration=0.75,
-    #     end_pad_duration=0.75,
-    #     fade='in-out',
-    #     quietest=-60.0,
-    #     gain=-7.0,
-    #     trim_start=False,
-    #     trim_end=False)
+    track2 = Phase(
+        'input_files/CPEFlute2.wav',
+        n_tracks=32,
+        gap=0.16,
+        # initial_gap=0.0,
+        repeat_count=40,
+        end_align=False,
+        start_pad_duration=0.75,
+        end_pad_duration=0.75,
+        fade='in-out',
+        quietest=-50.0,
+        gain=-7.0,
+        trim_start=False,
+        trim_end=False)
 
     # track3 = Phase(
     #     ' .wav',
